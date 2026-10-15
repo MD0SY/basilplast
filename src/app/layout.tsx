@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Oswald, Source_Sans_3 } from "next/font/google";
+import en from "../../messages/en.json";
 import "./globals.css";
 
 const display = Oswald({
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
     default: "BASIL PLAST",
     template: "%s · BASIL PLAST",
   },
-  description: "PET preform manufacturer in Chisinau, Moldova.",
+  description: en.meta.defaultDescription,
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

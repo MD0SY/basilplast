@@ -9,7 +9,11 @@
     "contactDescription": "Свяжитесь с Basil Plast в Ватре, Кишинев, Молдова.",
     "productsTitle": "Наши продукты",
     "productsDescription": "ПЭТ-преформы 48 мм от 58 г до 90 г.",
-    "productDescription": "{title}. Материал: {material}. Диаметр: {diameter}. Вес: {weight}. Объем: {capacity}."
+    "productDescription": "{title}. Материал: {material}. Диаметр: {diameter}. Вес: {weight}. Объем: {capacity}.",
+    "defaultDescription": "Производитель ПЭТ-преформ в Кишинёве, Молдова."
+  },
+  "notFound": {
+    "title": "Страница не найдена"
   },
   "nav": {
     "home": "Главная",
@@ -24,7 +28,9 @@
     "addressLabel": "ШТАБ-КВАРТИРА",
     "address": "Strada constructorilor 8, or vatra,mun Chisinau,Moldova",
     "ruRo": "Ru, Ro",
-    "enAr": "En, Ar"
+    "enAr": "En, Ar",
+    "tel": "Тел.",
+    "email": "Эл. почта"
   },
   "home": {
     "hero": "добро пожаловать в Basil Plast",
@@ -68,9 +74,9 @@
       { "title": "ПРЕДОСТАВЛЯЕМ РАЗЛИЧНЫЕ ВАРИАНТЫ ВЕСОВ И ЦВЕТОВ ПРЕФОРМ ПО ЗАПРОСУ КЛИЕНТА", "icon": "/images/icons/free4.gif" }
     ],
     "stats": [
-      { "label": "Positive Reviews", "icon": "/images/icons/free8.png" },
-      { "value": "Million", "suffix": "+", "label": "Manufactured preform", "icon": "/images/icons/free9.gif" },
-      { "prefix": "+", "label": "Happy Clients", "icon": "/images/icons/free3.png" }
+      { "label": "Положительные отзывы", "icon": "/images/icons/free8.png" },
+      { "value": "Миллион", "suffix": "+", "label": "Изготовленных преформ", "icon": "/images/icons/free9.gif" },
+      { "prefix": "+", "label": "Довольных клиентов", "icon": "/images/icons/free3.png" }
     ]
   },
   "about": {

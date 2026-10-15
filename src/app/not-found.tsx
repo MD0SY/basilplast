@@ -1,12 +1,17 @@
 import Link from "next/link";
+import { getLocale, getTranslations } from "next-intl/server";
+import { PageHero } from "@/components/PageHero";
 
-export default function NotFound() {
+export default async function NotFound() {
+  const locale = await getLocale();
+  const t = await getTranslations({ locale, namespace: "notFound" });
+
   return (
-    <section className="page-hero">
-      <h1>Page not found</h1>
+    <PageHero>
+      <h1>{t("title")}</h1>
       <p>
-        <Link href="/en">BASIL PLAST</Link>
+        <Link href={`/${locale}`}>BASIL PLAST</Link>
       </p>
-    </section>
+    </PageHero>
   );
 }

@@ -1,4 +1,5 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { PageHero } from "@/components/PageHero";
 import { ProductCard } from "@/components/ProductCard";
 import { products } from "@/content/products";
 import { localizedMetadata } from "@/lib/metadata";
@@ -29,9 +30,9 @@ export default async function ProductsPage({
 
   return (
     <>
-      <section className="page-hero">
+      <PageHero>
         <h1>{t("title")}</h1>
-      </section>
+      </PageHero>
       <section className="catalog">
         <div className="product-grid">
           {products.map((product) => (

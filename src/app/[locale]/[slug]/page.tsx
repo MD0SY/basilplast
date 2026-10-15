@@ -1,7 +1,8 @@
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { getProduct, products } from "@/content/products";
+import { PageHero } from "@/components/PageHero";
+import { getProduct, localizedText, products } from "@/content/products";
 import { routing } from "@/i18n/routing";
 import { localizedMetadata } from "@/lib/metadata";
 
@@ -19,14 +20,16 @@ export async function generateMetadata({
   const { locale, slug } = await params;
   const product = getProduct(slug);
   if (!product) return {};
+  const title = localizedText(product.title, locale);
+  const material = localizedText(product.material, locale);
   const t = await getTranslations({ locale, namespace: "meta" });
   return localizedMetadata(
     locale,
     `/${product.slug}`,
-    product.title,
+    title,
     t("productDescription", {
-      title: product.title,
-      material: product.material,
+      title,
+      material,
       diameter: product.diameter,
       weight: product.weight,
       capacity: product.capacity,
@@ -44,9 +47,10 @@ export default async function ProductPage({
   if (!product) notFound();
   setRequestLocale(locale);
   const t = await getTranslations("products");
+  const title = localizedText(product.title, locale);
 
   const specs = [
-    [t("material"), product.material],
+    [t("material"), localizedText(product.material, locale)],
     [t("diameter"), product.diameter],
     [t("weight"), product.weight],
     [t("capacity"), product.capacity],
@@ -54,13 +58,13 @@ export default async function ProductPage({
 
   return (
     <>
-      <section className="page-hero">
-        <h1>{product.title}</h1>
-      </section>
+      <PageHero>
+        <h1>{title}</h1>
+      </PageHero>
       <article className="product-detail">
         <Image
           src={product.image}
-          alt={product.title}
+          alt={title}
           width={800}
           height={512}
         />

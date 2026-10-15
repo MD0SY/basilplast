@@ -15,17 +15,21 @@ export function Footer() {
           <p>
             <a href="mailto:oleg@basilplast.md">oleg@basilplast.md</a>
           </p>
-          <p>Tel. +373-69-229611</p>
+          <p>
+            {t("tel")} +373-69-229611
+          </p>
         </div>
         <div>
           <p className="eyebrow">{t("enAr")}</p>
           <p>
             <a href="mailto:khaled@basilplast.md">khaled@basilplast.md</a>
           </p>
-          <p>Tel. +373-60-882604</p>
+          <p>
+            {t("tel")} +373-60-882604
+          </p>
         </div>
       </div>
-      <p className="copyright">BASIL PLAST</p>
+      <p className="copyright">© {new Date().getFullYear()} BASIL PLAST</p>
     </footer>
   );
 }

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { PageHero } from "@/components/PageHero";
 import { localizedMetadata } from "@/lib/metadata";
 
 export async function generateMetadata({
@@ -29,9 +30,9 @@ export default async function AboutPage({
 
   return (
     <>
-      <section className="page-hero">
+      <PageHero>
         <h1>{t("eyebrow")}</h1>
-      </section>
+      </PageHero>
       <section className="about">
         <Image
           src="/images/about.jpg"

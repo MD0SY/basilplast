@@ -211,7 +211,15 @@ h3,
 .page-hero {
   min-height: 240px;
   padding: 72px 24px;
-  background: #161616 url("/images/hero.jpg") center / cover;
+  background: #161616;
+}
+
+.page-hero-content {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  justify-items: center;
+  gap: 12px;
 }
 
 .page-hero h1 {
@@ -396,15 +404,8 @@ h3,
   height: auto;
 }
 
-.product-card time {
-  display: block;
-  margin-top: 12px;
-  color: #777;
-  font-size: 14px;
-}
-
 .product-card h3 {
-  margin: 6px 0 8px;
+  margin: 12px 0 8px;
   font-size: 28px;
 }
 

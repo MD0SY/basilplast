@@ -1,5 +1,6 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { ContactForm } from "@/components/ContactForm";
+import { PageHero } from "@/components/PageHero";
 import { localizedMetadata } from "@/lib/metadata";
 
 export async function generateMetadata({
@@ -29,9 +30,9 @@ export default async function ContactPage({
 
   return (
     <>
-      <section className="page-hero">
+      <PageHero>
         <h1>{t("headline")}</h1>
-      </section>
+      </PageHero>
       <section className="contact-layout">
         <div>
           <h2>{t("formTitle")}</h2>
@@ -42,14 +43,20 @@ export default async function ContactPage({
           <p>{t("address")}</p>
           <h3>{footer("ruRo")}</h3>
           <p>
-            Email. <a href="mailto:oleg@basilplast.md">oleg@basilplast.md</a>
+            {footer("email")}{" "}
+            <a href="mailto:oleg@basilplast.md">oleg@basilplast.md</a>
           </p>
-          <p>Tel. +373-69-229611</p>
+          <p>
+            {footer("tel")} +373-69-229611
+          </p>
           <h3>{footer("enAr")}</h3>
           <p>
-            Email. <a href="mailto:khaled@basilplast.md">khaled@basilplast.md</a>
+            {footer("email")}{" "}
+            <a href="mailto:khaled@basilplast.md">khaled@basilplast.md</a>
           </p>
-          <p>Tel. +373-60-882604</p>
+          <p>
+            {footer("tel")} +373-60-882604
+          </p>
         </div>
       </section>
       <iframe

@@ -9,7 +9,11 @@
     "contactDescription": "Contact Basil Plast in Vatra, Chisinau, Moldova.",
     "productsTitle": "Our Products",
     "productsDescription": "48mm PET preforms from 58g to 90g for bottles from 2.5 to 7 litres.",
-    "productDescription": "{title}. Material: {material}. Diameter: {diameter}. Weight: {weight}. Capacity: {capacity}."
+    "productDescription": "{title}. Material: {material}. Diameter: {diameter}. Weight: {weight}. Capacity: {capacity}.",
+    "defaultDescription": "PET preform manufacturer in Chisinau, Moldova."
+  },
+  "notFound": {
+    "title": "Page not found"
   },
   "nav": {
     "home": "Home",
@@ -24,7 +28,9 @@
     "addressLabel": "HEADQUARTER",
     "address": "Strada constructorilor 8, or vatra,mun Chisinau,Moldova",
     "ruRo": "Ru, Ro",
-    "enAr": "En, Ar"
+    "enAr": "En, Ar",
+    "tel": "Tel.",
+    "email": "Email."
   },
   "home": {
     "hero": "Welcome to BASIL PLAST",
@@ -68,9 +74,9 @@
       { "title": "PROVIDE VARIETY OF OPTIONS FOR CUSTOMER REQUEST INTERNS OF WEIGHTS, COLORS", "icon": "/images/icons/free4.gif" }
     ],
     "stats": [
-      { "figure": "Positive Reviews", "label": "", "icon": "/images/icons/free8.png" },
-      { "figure": "Million +", "label": "Manufactured preform", "icon": "/images/icons/free9.gif" },
-      { "figure": "+", "label": "Happy Clients", "icon": "/images/icons/free3.png" }
+      { "label": "Positive Reviews", "icon": "/images/icons/free8.png" },
+      { "value": "Million", "suffix": "+", "label": "Manufactured preform", "icon": "/images/icons/free9.gif" },
+      { "prefix": "+", "label": "Happy Clients", "icon": "/images/icons/free3.png" }
     ]
   },
   "about": {
