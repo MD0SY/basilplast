@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "siteName": "BASIL PLAST",
+    "homeTitle": "Home",
+    "homeDescription": "Basil Plast manufactures PET preforms in Chisinau, Moldova, specializing in 48mm preforms.",
+    "aboutTitle": "About Us",
+    "aboutDescription": "Basil-Plast is a PET plastic manufacturer headquartered in Chisinau-Moldova.",
+    "contactTitle": "Contact",
+    "contactDescription": "Contact Basil Plast in Vatra, Chisinau, Moldova.",
+    "productsTitle": "Our Products",
+    "productsDescription": "48mm PET preforms from 58g to 90g for bottles from 2.5 to 7 litres.",
+    "productDescription": "{title}. Material: {material}. Diameter: {diameter}. Weight: {weight}. Capacity: {capacity}."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "products": "Our Products",
+    "contact": "Contact",
+    "language": "Language"
+  },
+  "footer": {
+    "addressLabel": "HEADQUARTER",
+    "address": "Strada constructorilor 8, or vatra,mun Chisinau,Moldova",
+    "ruRo": "Ru, Ro",
+    "enAr": "En, Ar"
+  },
+  "home": {
+    "hero": "Welcome to BASIL PLAST",
+    "brand": "BASIL PLAST",
+    "trust": "a Quality you can trust",
+    "petTitle": "What is PET?",
+    "petBody": "A preform is an intermediate product that is manufactured from polyethylene terephthalate (PET). Primarily, a PET preform is a test tube-shaped article of synthetic plastic that vary in weight, colour, neck finish and shape. It is made by a process called injection moulding, using a plastic called PET in different market segments. The PET material is formed to a shape which is moulded to a specific shape. Furthermore, it is particularly designed to meet the needs of customers. Preform weight often depends on the bottom and the container’s desired volume or shape. As of now, there are many PET Preform Manufacturers in the world, who take account of all the factors that require attention while producing your customised product. However, it is always recommended to depend on the trust-worthy.",
+    "specialize": "Now we specialize in producing PET preforms  48mm",
+    "options": "ONE ADDRESS FOR BEST OPTIONS",
+    "optionsBody": "To fully reduce the risk on you, we show all necessary certificates and technical quality assurance to set the expectations to be partnership with us. If we deviate from the expectations and specifications that we agree to, we will be sure to respond in a satisfactory manner. Factory audits and samples can always be arranged when we are finished with the base discussions. Before the goods are sent, we can even send third party inspection companies",
+    "colorants": "We use best colorants!",
+    "pure": "%100 Pure & Certified PET",
+    "products": "OUR PRODUCTS",
+    "deal": "Great deals on discount this month!",
+    "values": [
+      {
+        "title": "#1 Quality",
+        "text": "Each and every product manufactured undergoes stringent testing and validations before it is introduced and included in our product range."
+      },
+      {
+        "title": "guaranteed",
+        "text": "Requesting for samples, inspection services, factory audits, and quality certificates are the ways to assure worries, ease doubts, and eventually build trust with our customers."
+      },
+      {
+        "title": "mission",
+        "text": "To be recognized as the premier supplier of custom preforms in East Europe."
+      },
+      {
+        "title": "Customers focus",
+        "text": "Our customers are the focus of everything we do."
+      }
+    ],
+    "features": [
+      { "title": "Non-Crystallized 48mm PET Preform", "icon": "/images/icons/free9.png" },
+      { "title": "Use only Officially approved Graded-A resin", "icon": "/images/icons/free10.png" },
+      { "title": "APPLICABLE FOR OIL, MINERAL WATER PET BOTTLE", "icon": "/images/icons/free3.gif" },
+      { "title": "PET BOTTLES FOR ASEPTIC PRODUCTS", "icon": "/images/icons/free13.png" },
+      { "title": "SIZE AND SPECIFICATION FULLY COMPLIANCE WITH INTERNATIONAL STANDARDS", "icon": "/images/icons/free8.png" },
+      { "title": "ABSOLUTE LOW REJECT RATE IN BLOWING PROCESS", "icon": "/images/icons/free15.png" },
+      { "title": "DIVERSIFY PET PREFORM WEIGHTS", "icon": "/images/icons/free12.png" },
+      { "title": "PROVIDE VARIETY OF OPTIONS FOR CUSTOMER REQUEST INTERNS OF WEIGHTS, COLORS", "icon": "/images/icons/free4.gif" }
+    ],
+    "stats": [
+      { "figure": "Positive Reviews", "label": "", "icon": "/images/icons/free8.png" },
+      { "figure": "Million +", "label": "Manufactured preform", "icon": "/images/icons/free9.gif" },
+      { "figure": "+", "label": "Happy Clients", "icon": "/images/icons/free3.png" }
+    ]
+  },
+  "about": {
+    "eyebrow": "Few Words About Us",
+    "title": "About Basil-Plast",
+    "paragraphs": [
+      "Basil-Plast is a PET plastic manufacturer headquartered in Chisinau-Moldova.",
+      "Basil-Plast laid its foundation in 2019 in Chisinau-Moldova, as a manufacturer, exporter and supplier of PET performs",
+      "Basil-Plast is an independent family business, firmly geared towards innovation, with a global performance based around 3 inseparables principles: Economic, Social and Environmental responsibility.",
+      "Since the beginning We have taken quality as the backbone of the company. Due to our faith and belief in Quality,",
+      "Basil-Plast today supplies to various national corporations who go through stringent quality tests only to come to the conclusion that; if a superior product is desired Basil plast is the way to go.",
+      "With multiple manufacturing locations and corporate offices, this group has learnt that the only way to be successful/ profitable in business is via customer satisfaction and mutual benefit. Basil-Plast continues to grow with regular investments and constantly moves ahead in the true spirit of enterprise and excellence.",
+      "We are proud to offer flexible order quantities from as low as 10,000 parts to high volume orders in the millions",
+      "We also have   We also have the capability to manufacture preforms in a range of colors and specialty additives. We offer preforms made of PET as well as R-PET and PLA biopolymers, as a part of our effort to reduce the carbon footprint.",
+      "We're constantly updated on new trends, future innovations and European standards so that we anticipate our customer's needs better.",
+      "We also invest in regular training techniques to improve our competitiveness, abilities and responsiveness.",
+      "Our main value added has been by providing quality, mass-manufactured factory priced products and exporting them. Clients usually come to us because of our low MOQ, extra services such as warehousing, quality guarantees and many more",
+      "We believe in a high touch customer service and clear sales process, and you can be sure that you will be served well by our enthusiastic team!"
+    ]
+  },
+  "contact": {
+    "headline": "because you deserve to work with the best!",
+    "formTitle": "CONTACT FORM",
+    "hq": "HEADQUARTER",
+    "address": "Strada constructorilor 8, or vatra,mun Chisinau,Moldova",
+    "mapTitle": "Strada Constructorilor 8, Vatra, Moldova"
+  },
+  "products": {
+    "title": "Our Products",
+    "material": "Material",
+    "diameter": "Diameter",
+    "weight": "Weight",
+    "capacity": "Capacity"
+  },
+  "form": {
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "message": "Description",
+    "submit": "Submit",
+    "sending": "Sending…",
+    "success": "Thanks for contacting us! We will be in touch with you shortly.",
+    "unconfigured": "Mail is not configured. Add RESEND_API_KEY to send this form.",
+    "invalid": "One or more fields have an error. Please check and try again.",
+    "error": "There was an error trying to send your message. Please try again later."
+  }
+}

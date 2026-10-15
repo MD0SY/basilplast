@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "siteName": "BASIL PLAST",
+    "homeTitle": "Acasă",
+    "homeDescription": "Basil Plast produce preforme PET în Chișinău, Moldova, specializată în preforme de 48 mm.",
+    "aboutTitle": "Despre noi",
+    "aboutDescription": "Basil-Plast este un producător de preforme PET cu sediul în Chișinău-Moldova.",
+    "contactTitle": "Contacte",
+    "contactDescription": "Contactați Basil Plast în Vatra, Chișinău, Moldova.",
+    "productsTitle": "Produsele noastre",
+    "productsDescription": "Preforme PET de 48 mm, de la 58 g la 90 g.",
+    "productDescription": "{title}. Material: {material}. Diametru: {diameter}. Greutate: {weight}. Capacitate: {capacity}."
+  },
+  "nav": {
+    "home": "Acasă",
+    "about": "Despre noi",
+    "products": "Produsele noastre",
+    "contact": "Contacte",
+    "language": "limba"
+  },
+  "footer": {
+    "addressLabel": "SEDIUL",
+    "address": "Strada constructorilor 8, or vatra,mun Chisinau,Moldova",
+    "ruRo": "Ru, Ro",
+    "enAr": "En, Ar"
+  },
+  "home": {
+    "hero": "BINE AȚI VENIT LA BASIL PLAST",
+    "brand": "BASIL PLAST",
+    "trust": "O CALITATE ÎN CARE PUTEȚI AVEA ÎNCREDERE",
+    "petTitle": "CE ESTE PET-UL?",
+    "petBody": "O preformă este un produs intermediar care este fabricat din polietilen tereftalat (PET). În primul rând, o preformă PET este un articol din plastic sintetic în formă de eprubetă, care variază în greutate, culoare și formă a gâtului. Este realizat printr-un proces numit turnare prin injecție, utilizând un plastic numit PET în diferite segmente de piață. Materialul PET este format într-o formă care este modelată într-o formă specifică. În plus, este conceput în mod special pentru a satisface nevoile clienților. Greutatea preformei depinde adesea de partea inferioară și de volumul sau forma dorită a containerului. Acum, există mulți producători de preforme PET în lume, care țin cont de toți factorii care necesită atenție în timp ce produc produsul dvs. personalizat. Cu toate acestea, este întotdeauna recomandat să depindeți de cei demni de încredere.",
+    "specialize": "Acum suntem specializați în producerea de preforme PET de 48 mm",
+    "options": "O ADRESĂ PENTRU CELE MAI BUNE OPȚIUNI",
+    "optionsBody": "Pentru a reduce pe deplin riscul asupra dvs., vă prezentăm toate certificatele necesare și asigurarea tehnică a calității pentru a stabili așteptările de a fi parteneri cu noi. Dacă ne abatem de la așteptările și specificațiile cu care suntem de acord, vom fi siguri că vom răspunde într-un mod satisfăcător. Auditurile din fabrică și eșantioanele pot fi întotdeauna organizate atunci când am terminat cu discuțiile de bază. Înainte de trimiterea mărfurilor, putem trimite chiar și companii terțe de inspecție",
+    "colorants": "Folosim cei mai buni coloranți!",
+    "pure": "100% PET pur și certificat",
+    "products": "PRODUSELE NOASTRE",
+    "deal": "MARI OFERTE CU REDUCERE ÎN ACEASTĂ LUNĂ!",
+    "values": [
+      {
+        "title": "CALITATEA # 1",
+        "text": "Fiecare produs fabricat este supus testelor și validărilor stricte înainte de a fi introdus și inclus în gama noastră de produse."
+      },
+      {
+        "title": "GARANTAM",
+        "text": "Solicitarea de eșantioane, servicii de inspecție, audituri din fabrică și certificate de calitate sunt modalitățile de a asigura calitatea, de a epuiza îndoielile și în cele din urmă, de a crea încrederea clienților noștri."
+      },
+      {
+        "title": "MISIUNE",
+        "text": "Pentru a fi cel mai mare furnizor de preforme personalizate din Europa de Est."
+      },
+      {
+        "title": "CONCENTRAREA SPRE CLIENȚI",
+        "text": "Clienții noștri sunt centrul a tot ceea ce facem."
+      }
+    ],
+    "features": [
+      { "title": "PREFORMĂ PET NECRISTALIZATĂ DE 48 MM", "icon": "/images/icons/free9.png" },
+      { "title": "UTILIZAM NUMAI RĂȘINĂ GRADATĂ-A APROBATĂ OFICIAL", "icon": "/images/icons/free10.png" },
+      { "title": "APLICABIL PENTRU ULEI, APĂ MINERALĂ", "icon": "/images/icons/free3.gif" },
+      { "title": "STICLE PET PENTRU PRODUSE ASEPTICE", "icon": "/images/icons/free13.png" },
+      { "title": "DIMENSIUNEA ȘI SPECIFICAȚIILE RESPECTĂ PE DEPLIN STANDARDELE INTERNAȚIONALE", "icon": "/images/icons/free8.png" },
+      { "title": "RATĂ DE RESPINGERE SCĂZUTĂ ABSOLUTĂ ÎN PROCESUL DE SUFLARE", "icon": "/images/icons/free15.png" },
+      { "title": "DIVERSIFICAREA DUPĂ GREUTĂȚI A PREFORMELOR PET", "icon": "/images/icons/free12.png" },
+      { "title": "OFERIM O VARIETATE DE OPȚIUNI PENTRU SOLICITANȚI DUPĂ GREUTATE ȘI CULOARE A PREFORMELOR PET", "icon": "/images/icons/free4.gif" }
+    ],
+    "stats": [
+      { "label": "Positive Reviews", "icon": "/images/icons/free8.png" },
+      { "value": "Million", "suffix": "+", "label": "Manufactured preform", "icon": "/images/icons/free9.gif" },
+      { "prefix": "+", "label": "Happy Clients", "icon": "/images/icons/free3.png" }
+    ]
+  },
+  "about": {
+    "eyebrow": "Puține cuvinte despre noi",
+    "title": "DESPRE BASIL-PLAST",
+    "paragraphs": [
+      "Basil-Plast este un producător de preforme PET cu sediul în Chișinău-Moldova. Basil-Plast și-a pus bazele în 2019 la Chișinău-Moldova, în calitate de producător, exportator și furnizor de PET, Basil-Plast este o afacere de familie independentă, orientată ferm spre inovație, cu o performanță globală bazată pe 3 principii inseparabile: economic, social și Responsabilitatea față de mediu. De la început am luat calitatea ca principiu de bază ancompaniei. Datorită credinței și încrederii noastre în calitate, Basil-Plast furnizează astăzi diferitor companii naționale care trec prin teste de calitate stricte doar pentru a ajunge la concluzia că: dacă se dorește un produs superior, Basil Plast este calea de urmat. Cu mai multe locații de producție și birouri corporative, acest grup a aflat că singura modalitate de a avea succes / profitabil în afaceri este prin satisfacția clienților și beneficiile reciproce. Basil-Plast continuă să crească cu investiții regulate și continuă să avanseze în adevăratul spirit de întreprindere și excelență. Suntem mândri să oferim cantități flexibile de comandă de la 10.000 de piese până la volume mari de milioane piese. De asemenea, avem capacitatea de a produce preforme într-o gamă de culori și aditivi de specialitate. Oferim preforme din PET, precum și biopolimeri R-PET și PLA, ca parte a efortului nostru de a reduce amprenta de carbon. Suntem permanent în dezvoltare cu privire la noile tendințe, inovații viitoare și standarde europene, astfel încât să anticipăm mai bine nevoile clienților noștri. De asemenea, investim în tehnici regulate de formare pentru a ne îmbunătăți competitivitatea, abilitățile. Principala noastră valoare adăugată a fost furnizarea de produse de calitate fabricate în masă la prețuri din fabrică și exportarea acestora. Clienții vin de obicei la noi din cauza MOQ-ului nostru scăzut, a serviciilor suplimentare, precum depozitarea, garanțiile de calitate și multe altele. Credem într-un serviciu de calitae înalt pentru clienți și un proces clar de vânzare și puteți fi siguri că veți fi deservit bine de echipa noastră entuziastă !"
+    ]
+  },
+  "contact": {
+    "headline": "PENTRU că MERITĂȚI SĂ LUCRAȚI CU CEI MAI BUNI!",
+    "formTitle": "FORMULAR DE CONTACT",
+    "hq": "SEDIUL",
+    "address": "Strada constructorilor 8, or vatra,mun Chisinau,Moldova",
+    "mapTitle": "Strada Constructorilor 8, Vatra, Moldova"
+  },
+  "products": {
+    "title": "Produsele noastre",
+    "material": "Material",
+    "diameter": "Diametru",
+    "weight": "Greutate",
+    "capacity": "Capacitate"
+  },
+  "form": {
+    "firstName": "Prenume",
+    "lastName": "Nume",
+    "email": "Email",
+    "message": "Mesaj",
+    "submit": "Trimite",
+    "sending": "Se trimite…",
+    "success": "Vă mulțumim că ne-ați contactat! Vă vom răspunde în curând.",
+    "unconfigured": "E-mailul nu este configurat. Adăugați RESEND_API_KEY pentru a trimite formularul.",
+    "invalid": "Unul sau mai multe câmpuri au o eroare. Verificați și încercați din nou.",
+    "error": "A apărut o eroare la trimiterea mesajului. Încercați din nou mai târziu."
+  }
+}
