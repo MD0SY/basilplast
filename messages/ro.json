@@ -16,7 +16,9 @@
     "about": "Despre noi",
     "products": "Produsele noastre",
     "contact": "Contacte",
-    "language": "limba"
+    "language": "limba",
+    "menu": "Meniu",
+    "close": "Închide"
   },
   "footer": {
     "addressLabel": "SEDIUL",

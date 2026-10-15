@@ -16,7 +16,9 @@
     "about": "Онас",
     "products": "Наши продукты",
     "contact": "Контакты",
-    "language": "язык"
+    "language": "язык",
+    "menu": "Меню",
+    "close": "Закрыть"
   },
   "footer": {
     "addressLabel": "ШТАБ-КВАРТИРА",

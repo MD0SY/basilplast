@@ -16,7 +16,9 @@
     "about": "About Us",
     "products": "Our Products",
     "contact": "Contact",
-    "language": "Language"
+    "language": "Language",
+    "menu": "Menu",
+    "close": "Close"
   },
   "footer": {
     "addressLabel": "HEADQUARTER",
