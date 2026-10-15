@@ -1,18 +1,12 @@
 import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { ProductCard } from "@/components/ProductCard";
+import { Stats, type HomeStat } from "@/components/Stats";
 import { products } from "@/content/products";
 import { localizedMetadata } from "@/lib/metadata";
 
 type Value = { title: string; text: string };
 type Feature = { title: string; icon: string };
-type Stat = {
-  label: string;
-  icon: string;
-  value?: string;
-  suffix?: string;
-  prefix?: string;
-};
 
 export async function generateMetadata({
   params,
@@ -34,7 +28,7 @@ export default async function HomePage({
   const t = await getTranslations("home");
   const values = t.raw("values") as Value[];
   const features = t.raw("features") as Feature[];
-  const stats = t.raw("stats") as Stat[];
+  const stats = t.raw("stats") as HomeStat[];
 
   return (
     <>
@@ -152,23 +146,7 @@ export default async function HomePage({
         </div>
       </section>
 
-      <section className="stats">
-        {stats.map((stat) => (
-          <article key={stat.label} className="stat">
-            <Image src={stat.icon} alt="" width={72} height={72} />
-            {stat.value || stat.prefix ? (
-              <p className="stat-value">
-                {stat.prefix}
-                {stat.value}
-                {stat.suffix}
-              </p>
-            ) : null}
-            <p className={stat.value || stat.prefix ? "stat-label" : "stat-value"}>
-              {stat.label}
-            </p>
-          </article>
-        ))}
-      </section>
+      <Stats stats={stats} />
 
       <section className="cta">
         <h2>{t("deal")}</h2>

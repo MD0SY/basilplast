@@ -74,9 +74,9 @@
       { "title": "PROVIDE VARIETY OF OPTIONS FOR CUSTOMER REQUEST INTERNS OF WEIGHTS, COLORS", "icon": "/images/icons/free4.gif" }
     ],
     "stats": [
-      { "label": "Positive Reviews", "icon": "/images/icons/free8.png" },
-      { "value": "Million", "suffix": "+", "label": "Manufactured preform", "icon": "/images/icons/free9.gif" },
-      { "prefix": "+", "label": "Happy Clients", "icon": "/images/icons/free3.png" }
+      { "target": 77, "label": "Positive Reviews", "icon": "/images/icons/free8.png" },
+      { "target": 1000000, "suffix": "+", "label": "Manufactured preform", "icon": "/images/icons/free9.gif" },
+      { "target": 56, "suffix": "+", "label": "Happy Clients", "icon": "/images/icons/free3.png" }
     ]
   },
   "about": {

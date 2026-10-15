@@ -1,10 +1,21 @@
+import Image from "next/image";
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 
 export function Footer() {
   const t = useTranslations("footer");
 
   return (
     <footer className="site-footer">
+      <Link href="/" className="footer-logo-link">
+        <Image
+          src="/images/icons/cropped-logo_basil_plast.jpg"
+          alt="BASIL PLAST"
+          width={317}
+          height={135}
+          className="footer-logo"
+        />
+      </Link>
       <div className="footer-grid">
         <div>
           <p className="eyebrow">{t("addressLabel")}</p>

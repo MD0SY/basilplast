@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
 import { Link, usePathname } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
@@ -35,7 +36,14 @@ export function Header() {
     <header className="site-header">
       <div className="header-inner">
         <Link href="/" className="brand" onClick={() => setOpen(false)}>
-          BASIL PLAST
+          <Image
+            src="/images/icons/cropped-logo_basil_plast.jpg"
+            alt="BASIL PLAST"
+            width={317}
+            height={135}
+            className="brand-logo"
+            loading="eager"
+          />
         </Link>
         <nav
           id="site-nav"

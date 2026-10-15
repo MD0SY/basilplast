@@ -74,9 +74,9 @@
       { "title": "OFERIM O VARIETATE DE OPȚIUNI PENTRU SOLICITANȚI DUPĂ GREUTATE ȘI CULOARE A PREFORMELOR PET", "icon": "/images/icons/free4.gif" }
     ],
     "stats": [
-      { "label": "Recenzii pozitive", "icon": "/images/icons/free8.png" },
-      { "value": "Milion", "suffix": "+", "label": "Preforme fabricate", "icon": "/images/icons/free9.gif" },
-      { "prefix": "+", "label": "Clienți mulțumiți", "icon": "/images/icons/free3.png" }
+      { "target": 77, "label": "Recenzii pozitive", "icon": "/images/icons/free8.png" },
+      { "target": 1000000, "suffix": "+", "label": "Preforme fabricate", "icon": "/images/icons/free9.gif" },
+      { "target": 56, "suffix": "+", "label": "Clienți mulțumiți", "icon": "/images/icons/free3.png" }
     ]
   },
   "about": {

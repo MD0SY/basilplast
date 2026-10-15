@@ -74,9 +74,9 @@
       { "title": "ПРЕДОСТАВЛЯЕМ РАЗЛИЧНЫЕ ВАРИАНТЫ ВЕСОВ И ЦВЕТОВ ПРЕФОРМ ПО ЗАПРОСУ КЛИЕНТА", "icon": "/images/icons/free4.gif" }
     ],
     "stats": [
-      { "label": "Положительные отзывы", "icon": "/images/icons/free8.png" },
-      { "value": "Миллион", "suffix": "+", "label": "Изготовленных преформ", "icon": "/images/icons/free9.gif" },
-      { "prefix": "+", "label": "Довольных клиентов", "icon": "/images/icons/free3.png" }
+      { "target": 77, "label": "Положительные отзывы", "icon": "/images/icons/free8.png" },
+      { "target": 1000000, "suffix": "+", "label": "Изготовленных преформ", "icon": "/images/icons/free9.gif" },
+      { "target": 56, "suffix": "+", "label": "Довольных клиентов", "icon": "/images/icons/free3.png" }
     ]
   },
   "about": {
