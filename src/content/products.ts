@@ -51,6 +51,20 @@ export const products: Product[] = [
     material: monolayer,
   },
   {
+    slug: "preform-48mm-78g",
+    title: {
+      en: "Preform 48mm/78g",
+      ru: "Преформа 48мм/78г",
+      ro: "Preformă 48mm/78g",
+    },
+    image: "/images/products/64.jpg",
+    drawing: "/images/products/64-drawing.png",
+    diameter: "48mm",
+    weight: "78g",
+    capacity: "4 – 5l",
+    material: monolayer,
+  },
+  {
     slug: "preform-48mm-64g",
     title: {
       en: "Preform 48mm/64g",
