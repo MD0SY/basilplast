@@ -106,6 +106,20 @@ export const products: Product[] = [
     capacity: "2.5 – 4l",
     material: monolayer,
   },
+    {
+    slug: "preform-38mm-72g",
+    title: {
+      en: "Preform 38mm/72g",
+      ru: "Преформа 38мм/72г",
+      ro: "Preformă 38mm/72g",
+    },
+    image: "/images/products/72.jpg",
+    drawing: "/images/products/72.png",
+    diameter: "38mm",
+    weight: "72g",
+    capacity: "4 – 5l",
+    material: monolayer,
+  },
 ];
 
 export function localizedText(text: LocalizedText, locale: string) {
