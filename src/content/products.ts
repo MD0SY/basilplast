@@ -37,11 +37,11 @@ export const products: Product[] = [
     material: monolayer,
   },
   {
-    slug: "preform-48mm-80g",
+    slug: "preform-48mm-84g",
     title: {
-      en: "Preform 48mm/80g",
-      ru: "Преформа 48мм/80г",
-      ro: "Preformă 48mm/80g",
+      en: "Preform 48mm/84g",
+      ru: "Преформа 48мм/84г",
+      ro: "Preformă 48mm/84g",
     },
     image: "/images/products/80.jpg",
     drawing: "/images/products/80-drawing.png",
