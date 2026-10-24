@@ -46,7 +46,7 @@ export const products: Product[] = [
     image: "/images/products/80.jpg",
     drawing: "/images/products/80-drawing.png",
     diameter: "48mm",
-    weight: "80g",
+    weight: "84g",
     capacity: "4 – 5.5l",
     material: monolayer,
   },
