@@ -22,6 +22,20 @@ const monolayer: LocalizedText = {
 };
 
 export const products: Product[] = [
+ {
+    slug: "preform-48mm-118g",
+    title: {
+      en: "Preform 48mm/118g",
+      ru: "Преформа 48мм/118г",
+      ro: "Preformă 48mm/118g",
+    },
+    image: "/images/products/118.jpg",
+    drawing: "/images/products/118-drawing.png",
+    diameter: "48mm",
+    weight: "118g",
+    capacity: "8 – 10l",
+    material: monolayer,
+  },
   {
     slug: "preform-48mm-90g",
     title: {
